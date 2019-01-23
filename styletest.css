@@ -1,5 +1,14 @@
+* {
+box-sizing: border-box;
+}
+
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+}
 .debug{
-    border: 1px solid red;
+    border: 1px solid rgb(10, 10, 10);
 }
 .allescontainer {
     display: flex;
@@ -7,17 +16,23 @@
 }
 
 .top{
-    height: 64px;    
+    height: 64px; 
+   background-color: burlywood;    
+   text-align: center;
+   
 }
 
 .header{
     height: 128px;
+    background-color: goldenrod;
+    text-align: center;
 }
 
 
 
 .whitespace{
     height: 64px;
+    background-color: burlywood;
 }   
 
 .cards {
@@ -26,6 +41,7 @@
     flex: 1;
     justify-content: center;
     align-items: center;
+    background-color:goldenrod;
 }
 
 .card {
@@ -161,7 +177,7 @@
     background-color: transparent;
     width: 300px;
     height: 200px;
-    border: 1px solid #f1f1f1;
+    border: 1px solid goldenrod;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
@@ -190,13 +206,13 @@
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: goldenrod;
+    color: goldenrod;
   }
   
   /* Style the back side */
   .flip-card-back {
     background-color: dodgerblue;
-    color: white;
+    color: goldenrod;
     transform: rotateY(180deg);
   }

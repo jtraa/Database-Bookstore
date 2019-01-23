@@ -31,7 +31,7 @@
             '</div>'.
         '</div>'.
         '<div class="h2">' .
-            '<h3>'. $row['hp_genre'] . '<br>' . $row['hp_age'] . '<br>' . $row['hp_price'] . '<br>' . '</h3>' .
+            '<h3>'. $row['hp_genre'] . '<br>' . $row['hp_age'] . '+' . '<br>' . '€' . $row['hp_price'] . ',-' . '<br>' . '</h3>' .
          '</div>' .
     '</div>';
 
