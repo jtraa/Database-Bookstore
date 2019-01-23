@@ -20,7 +20,7 @@
             '<div class="flip-card">' .
                 '<div class="flip-card-inner">' .
                     '<div class="flip-card-front">' .
-                        '<img src="' . $row['hp_image'] . '" alt="' . $row['hp_title'] . '" style=width:100%">' .
+                       '<a href= .php>' . '<img src="' . $row['hp_image'] . '" alt="' . $row['hp_title'] . '" style=width:100%">' .
                         //<img src=img\halfbloodprince.jpg style=width:100%>
                     '</div>' .
                     '<div class="flip-card-back">' .
@@ -28,6 +28,7 @@
                         //<img src=img\halfbloodprince2.jpg style=width:100%>
                     '</div>' .
                     '</div>'.
+                    '</a>' .
             '</div>'.
         '</div>'.
         '<div class="h2">' .
