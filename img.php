@@ -20,6 +20,7 @@
              '<img src="' . $row['hp_image'] . '" alt="' . '" style="width:100%">' .
              //'</a>' .
 
+
              '</div>';
              
        

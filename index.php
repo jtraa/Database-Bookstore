@@ -2,24 +2,20 @@
 <html>
     <head>
         <title>MySQL PHP</title>        
-        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="styletest.css" />
     </head>
 
     <body>
-        <div class="flex">
-            <?php include "card.php"; ?>
-        
-            <div class="hoi">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <?php include "img.php"; ?>
-                        </div>
-                        <div class="flip-card-back">
-                          <?php include "img2.php"; ?>
-                        </div>
+        <div class="allescontainer debug">
+            <div class="top debug">Welcome </div>
+                <div class="header debug">Bookstore</div>
+                <div class="debug whitespace"></div>
+                    <div class="cards debug">
+                        <?php include "card.php"; ?>        
                     </div>
-                </div>
-            </div>
+                <div class="debug whitespace"></div>
+                <div class="debug footer"></div>
+            </div>        
+         
     </body>
 </html>
