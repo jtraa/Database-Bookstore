@@ -40,7 +40,7 @@ $jelle_querie = "SELECT * FROM hp2 WHERE harry_id=$id";
             '</div>'.
         '</div>'.
         '<div class="h2">' .
-            '<h3>'. $row['hp_information'] . '<br>' . $row['hp_information'] . '+' . '<br>' . '€' . $row['hp_information'] . ',-' . '<br>' . '</h3>' .
+            '<h3>'. $row['hp_information'] . '<br>' . $row['hp_information']  . '<br>' . $row['hp_information'] .  '<br>' . '</h3>' .
          '</div>' .
     '</div>';
 
